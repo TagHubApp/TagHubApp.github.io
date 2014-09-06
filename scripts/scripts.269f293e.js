@@ -1,0 +1,1 @@
+"use strict";angular.module("taghubApp",["ngAnimate","ngCookies","ngResource","ngSanitize","ngTouch","ui.router"]).config(["$stateProvider","$urlRouterProvider",function(a,b){b.otherwise("/"),a.state("main",{url:"/",controller:"MainController as main",templateUrl:"views/main.html"})}]),angular.module("taghubApp").controller("MainController",function(){});
